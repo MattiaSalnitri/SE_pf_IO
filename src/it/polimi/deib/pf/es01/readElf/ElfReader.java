@@ -6,6 +6,10 @@ import java.io.IOException;
 import java.nio.file.Files;
 
 //https://unix.stackexchange.com/questions/153352/what-is-elf-magic
+
+/**
+ * class that reads the magic number of unix based files
+ */
 public class ElfReader {
 	
 	//elf number for executable file ( on mac)
